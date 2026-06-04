@@ -9,6 +9,8 @@ node_modules
 /site/.next
 /site/node_modules
 /site/out
+next-env.d.ts
+*.tsbuildinfo
 .vercel
 
 # build output

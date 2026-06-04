@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>와악어 설정</title>
+    <style>
+      :root {
+        color-scheme: dark;
+      }
+      body {
+        margin: 0;
+        padding: 22px 24px;
+        font-family: -apple-system, system-ui, sans-serif;
+        background: #1c1c1e;
+        color: #f2f2f7;
+      }
+      h2 {
+        margin: 0 0 18px;
+        font-size: 18px;
+      }
+      .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 16px;
+      }
+      label {
+        font-size: 14px;
+        color: #c7c7cc;
+      }
+      input,
+      #hotkey {
+        background: #2c2c2e;
+        border: 1px solid #48484a;
+        color: #f2f2f7;
+        border-radius: 8px;
+        padding: 8px 12px;
+        font-size: 14px;
+      }
+      input {
+        width: 90px;
+        text-align: right;
+      }
+      #hotkey {
+        cursor: pointer;
+        min-width: 120px;
+        text-align: center;
+        font-weight: 700;
+      }
+      #hotkey.capturing {
+        border-color: #ff453a;
+        color: #ff453a;
+      }
+      .actions {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-top: 24px;
+      }
+      #save {
+        background: #0a84ff;
+        border: none;
+        color: #fff;
+        font-weight: 700;
+        padding: 9px 18px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 14px;
+      }
+      #status {
+        font-size: 13px;
+        color: #30d158;
+      }
+      .hint {
+        font-size: 12px;
+        color: #8e8e93;
+        margin-top: -8px;
+        margin-bottom: 18px;
+      }
+    </style>
+    <script type="module" src="/settings.js" defer></script>
+  </head>
+  <body>
+    <h2>🐊 와악어 설정</h2>
+
+    <div class="row">
+      <label>가드 단축키</label>
+      <button id="hotkey" type="button">⌃⌥G</button>
+    </div>
+    <p class="hint">버튼을 누르고 원하는 조합키를 입력하세요 (modifier 포함 권장)</p>
+
+    <div class="row">
+      <label>유예 시간 (초)</label>
+      <input id="grace" type="number" min="0" max="30" />
+    </div>
+
+    <div class="row">
+      <label>물기 시간 (ms)</label>
+      <input id="bite" type="number" min="500" max="6000" step="100" />
+    </div>
+
+    <div class="row">
+      <label>로그인 시 자동 실행</label>
+      <input id="autostart" type="checkbox" />
+    </div>
+
+    <div class="actions">
+      <button id="save" type="button">저장</button>
+      <span id="status"></span>
+    </div>
+  </body>
+</html>

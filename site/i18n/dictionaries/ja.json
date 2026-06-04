@@ -1,0 +1,32 @@
+{
+  "nav": { "download": "ダウンロード", "github": "GitHub" },
+  "hero": {
+    "title": "Lockdile",
+    "subtitle": "와악어 (ワアゴ)",
+    "tagline": "ロックせずに離席すると、ワニが侵入者のカーソルに噛みつき、画面をロックします。",
+    "subtagline": "ロックし忘れたMacを守るメニューバーのワニ。無料・オープンソース。",
+    "download": "↓ macOS版をダウンロード",
+    "github": "GitHubで見る"
+  },
+  "steps": [
+    { "emoji": "🛡️", "title": "ガードON", "desc": "離席時にメニューバーの🐊または⌃⌥Gでガードを有効化。" },
+    { "emoji": "⌨️", "title": "検知", "desc": "誰かがキーを押した瞬間に反応します（マウスは無視）。" },
+    { "emoji": "🔒", "title": "ガブッ＆ロック", "desc": "ワニがカーソルに襲いかかって噛みつき、画面をロックします。" }
+  ],
+  "download": {
+    "title": "Lockdile をダウンロード",
+    "subtitle": "macOS（Apple Silicon）対応。無料・オープンソース。",
+    "versionLabel": "バージョン",
+    "releasedLabel": "公開",
+    "req": "macOS 11 以降 · Apple Silicon",
+    "button": "↓ .dmg をダウンロード",
+    "firstrunTitle": "初回起動",
+    "firstrun": [
+      ".dmg を開き、アプリを Applications にドラッグ",
+      "アプリを右クリック → 開く → 開く（未公証のため Gatekeeper の警告が出ます）",
+      "システム設定 → プライバシーとセキュリティ → アクセシビリティと入力監視で lockdile を許可して再起動"
+    ],
+    "allReleases": "GitHub ですべてのリリースを見る →"
+  },
+  "footer": "© 2026 Lockdile · MIT"
+}

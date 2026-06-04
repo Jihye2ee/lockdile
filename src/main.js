@@ -1,5 +1,12 @@
 const { listen } = window.__TAURI__.event;
 
+const ROAR = { ko: "와아악!", en: "CHOMP!", ja: "ガブッ!", zh: "啊呜!" };
+
+function roarText() {
+  const lang = (navigator.language || "en").toLowerCase().split("-")[0];
+  return ROAR[lang] || ROAR.en;
+}
+
 let overlay;
 let audioCtx;
 
@@ -46,5 +53,6 @@ function bite(pos) {
 
 window.addEventListener("DOMContentLoaded", () => {
   overlay = document.getElementById("overlay");
+  document.getElementById("waak").textContent = roarText();
   listen("intruder", (event) => bite(event.payload));
 });

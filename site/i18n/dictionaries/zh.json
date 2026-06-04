@@ -1,0 +1,32 @@
+{
+  "nav": { "download": "下载", "github": "GitHub" },
+  "hero": {
+    "title": "Lockdile",
+    "subtitle": "와악어",
+    "tagline": "离开座位忘记锁屏？鳄鱼会咬住入侵者的光标，并替你锁屏。",
+    "subtagline": "守护未锁屏 Mac 的菜单栏鳄鱼。免费 · 开源。",
+    "download": "↓ 下载 macOS 版",
+    "github": "在 GitHub 查看"
+  },
+  "steps": [
+    { "emoji": "🛡️", "title": "启用守卫", "desc": "离开时点击菜单栏 🐊 或按 ⌃⌥G 开启守卫。" },
+    { "emoji": "⌨️", "title": "侦测", "desc": "有人敲键盘的瞬间立即触发（忽略鼠标）。" },
+    { "emoji": "🔒", "title": "咬住并锁屏", "desc": "鳄鱼扑向光标咬住，并锁定屏幕。" }
+  ],
+  "download": {
+    "title": "下载 Lockdile",
+    "subtitle": "适用于 macOS（Apple Silicon）。免费 · 开源。",
+    "versionLabel": "版本",
+    "releasedLabel": "发布于",
+    "req": "macOS 11 或更高版本 · Apple Silicon",
+    "button": "↓ 下载 .dmg",
+    "firstrunTitle": "首次启动",
+    "firstrun": [
+      "打开 .dmg，将应用拖到 Applications",
+      "右键点击应用 → 打开 → 打开（尚未公证，会出现 Gatekeeper 警告）",
+      "系统设置 → 隐私与安全性 → 在“辅助功能”和“输入监控”中允许 lockdile，然后重新启动"
+    ],
+    "allReleases": "在 GitHub 查看所有版本 →"
+  },
+  "footer": "© 2026 Lockdile · MIT"
+}

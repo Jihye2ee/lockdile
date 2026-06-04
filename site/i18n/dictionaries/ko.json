@@ -1,0 +1,32 @@
+{
+  "nav": { "download": "다운로드", "github": "GitHub" },
+  "hero": {
+    "title": "와악어",
+    "subtitle": "Lockdile",
+    "tagline": "자리 비울 때 남이 키보드를 누르면, 악어가 커서를 물고 화면을 잠급니다.",
+    "subtagline": "잠그지 않은 Mac을 지키는 메뉴바 악어. 무료 · 오픈소스.",
+    "download": "↓ macOS용 다운로드",
+    "github": "GitHub에서 보기"
+  },
+  "steps": [
+    { "emoji": "🛡️", "title": "가드 ON", "desc": "자리 뜰 때 메뉴바 🐊 또는 ⌃⌥G로 경비 모드를 켭니다." },
+    { "emoji": "⌨️", "title": "침입 감지", "desc": "누군가 키보드를 누르면 그 순간을 포착합니다. (마우스는 무시)" },
+    { "emoji": "🔒", "title": "와앙 + 잠금", "desc": "악어가 커서로 달려들어 물고, 화면을 잠가버립니다." }
+  ],
+  "download": {
+    "title": "와악어 다운로드",
+    "subtitle": "macOS (Apple Silicon)용. 무료 · 오픈소스.",
+    "versionLabel": "버전",
+    "releasedLabel": "출시",
+    "req": "macOS 11 이상 · Apple Silicon",
+    "button": "↓ .dmg 다운로드",
+    "firstrunTitle": "처음 실행할 때",
+    "firstrun": [
+      "받은 .dmg를 열고 앱을 Applications로 드래그",
+      "앱 우클릭 → 열기 → 열기 (공증 전이라 Gatekeeper 경고가 떠요)",
+      "시스템 설정 → 개인정보 보호 및 보안 → 손쉬운 사용 + 입력 모니터링에서 lockdile 허용 후 재실행"
+    ],
+    "allReleases": "GitHub에서 모든 릴리스 보기 →"
+  },
+  "footer": "© 2026 Lockdile · MIT"
+}

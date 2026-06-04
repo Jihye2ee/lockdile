@@ -1,0 +1,32 @@
+{
+  "nav": { "download": "Download", "github": "GitHub" },
+  "hero": {
+    "title": "Lockdile",
+    "subtitle": "와악어",
+    "tagline": "Step away without locking, and a crocodile bites the intruder's cursor — then locks your Mac.",
+    "subtagline": "A menu-bar crocodile that guards your unlocked Mac. Free & open source.",
+    "download": "↓ Download for macOS",
+    "github": "View on GitHub"
+  },
+  "steps": [
+    { "emoji": "🛡️", "title": "Arm it", "desc": "Hit the menu-bar 🐊 or press ⌃⌥G when you leave your desk." },
+    { "emoji": "⌨️", "title": "Detect", "desc": "The moment someone types, it strikes. (The mouse is ignored.)" },
+    { "emoji": "🔒", "title": "Chomp & lock", "desc": "The crocodile lunges at the cursor and locks the screen." }
+  ],
+  "download": {
+    "title": "Download Lockdile",
+    "subtitle": "For macOS (Apple Silicon). Free & open source.",
+    "versionLabel": "Version",
+    "releasedLabel": "Released",
+    "req": "macOS 11 or later · Apple Silicon",
+    "button": "↓ Download .dmg",
+    "firstrunTitle": "First launch",
+    "firstrun": [
+      "Open the .dmg and drag the app into Applications",
+      "Right-click the app → Open → Open (Gatekeeper warns since it isn't notarized yet)",
+      "System Settings → Privacy & Security → enable lockdile under Accessibility + Input Monitoring, then relaunch"
+    ],
+    "allReleases": "View all releases on GitHub →"
+  },
+  "footer": "© 2026 Lockdile · MIT"
+}
